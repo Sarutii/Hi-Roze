@@ -37,8 +37,9 @@ html {
 }
 
 body {
-    color: #666666;
+    background-color: #e2ecf7;
     font-size: 14px;
+    width: 104%;
     font-family: Poppins;
     line-height: 1.80857;
     font-weight: normal;
@@ -320,16 +321,16 @@ button {
 }
 
 .layout_padding {
-    padding-top: 90px;
+/*    padding-top: 90px;*/
     padding-bottom: 0px;
 }
 
 .header_section {
     width: 100%;
     float: left;
-    background-imFage: url(../images/bg.png);
+/*    background-imFage: url(../images/bg.png);*/
     height: auto;
-    background-size: 100%;
+/*    background-size: 100%;*/
 /*    padding: 10px 0px 25px 0px;*/
     background-repeat: no-repeat;
 }
@@ -347,7 +348,7 @@ button {
     padding-right: 20px;
     padding-left: 20px;
     color: #272a2a;
-    font-size: 18px;
+    
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #FF69CB;
@@ -364,12 +365,13 @@ button {
     width: 100%;
     float: left;
     padding-bottom: 105px;
+    font-size: 18px;
 }
 
 .images_1 {
-    width: 80%;
+    width: 100%;
     float: right;
-    padding-top: 50px;
+
 }
 
 .banner_taital {
@@ -383,11 +385,11 @@ button {
 }
 
 .banner_text {
-    width: 100%;
+    width: 110%;
     float: left;
-    font-size: 16px;
+    font-size: 20px;
     margin: 0px;
-    color: #252525;
+    color: #000000;
 }
 
 .btn_main {
@@ -397,7 +399,7 @@ button {
 }
 
 .more_bt {
-    width: 170px;
+    width: 250px;
     float: left;
 }
 
@@ -423,24 +425,171 @@ button {
 
 /* Slideshow container */
 .slideshow-container {
-  width:100%;
-  position: static;
+  width:75%;
+  left: 12%;
+  position: relative;
 /*  margin: left;*/
 /*  left: 150px;*/
-  background-color: #FF69CB;
+  background-color: #ffffff;
 /*  border-radius: 15px;*/
-  color: #FF69CB;
-/*  display: block;*/
+  color: #ffffff;
+  padding-top: 50px;
+  display: none;
 
+}
+.slideshow-container_1 {
+  width:75%;
+  left: 12%;
+  position: relative;
+/*  margin: left;*/
+/*  left: 150px;*/
+  background-color: #ffffff;
+/*  border-radius: 15px;*/
+  color: #ffffff;
+  display: none;
+    padding-top: 50px;
+
+
+}
+
+
+.slideshow-container_2 {
+  width:75%;
+  left: 12%;
+  position: relative;
+/*  margin: left;*/
+/*  left: 150px;*/
+  background-color: #ffffff;
+/*  border-radius: 15px;*/
+  color: #ffffff;
+  display: none;
+    padding-top: 50px;
+
+
+}
+
+.slideshow-container_3 {
+  width:75%;
+  left: 12%;
+  position: relative;
+/*  margin: left;*/
+/*  left: 150px;*/
+  background-color: #ffffff;
+/*  border-radius: 15px;*/
+  color: #ffffff;
+  display: none;
+    padding-top: 50px;
+
+
+}
+
+.slideshow-container_4 {
+  width:75%;
+  left: 12%;
+  position: relative;
+/*  margin: left;*/
+/*  left: 150px;*/
+  background-color: #252525;
+/*  border-radius: 15px;*/
+  color: #252525;
+  display: none;
+    padding-top: 50px;
+
+
+}
+
+.slideshow-container_5 {
+  width:75%;
+  left: 12%;
+  position: relative;
+/*  margin: left;*/
+/*  left: 150px;*/
+  background-color: #ffffff;
+/*  border-radius: 15px;*/
+  color: #ffffff;
+  display: none;
+    padding-top: 50px;
+    padding-right: -30px;
+
+
+}
+
+
+.slideshow-container_6 {
+  width:75%;
+  left: 12%;
+  position: relative;
+/*  margin: left;*/
+/*  left: 150px;*/
+  background-color: #252525;
+/*  border-radius: 15px;*/
+  color: #252525;
+  display: none;
+    padding-top: 50px;
+
+
+}
+
+.slideshow-container_7 {
+  width:75%;
+  left: 12%;
+  position: relative;
+/*  margin: left;*/
+/*  left: 150px;*/
+  background-color: #252525;
+/*  border-radius: 15px;*/
+  color: #252525;
+  display: none;
+    padding-top: 50px;
+
+
+}
+
+.Registeration_section {
+  width:75%;
+  left: 12%;
+  position: relative;
+/*  margin: left;*/
+/*  left: 150px;*/
+  background-color: #252525;
+/*  border-radius: 15px;*/
+  color: #252525;
+  padding-top: 50px;
+  display: none;
+
+}
+
+
+
+
+.mySlides_1 {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #252525;
+  width: 100%;
+
+    border-radius: 30px 30px 30px 30px;
+
+  
+}
+
+.mySlides_2 {
+  display: inline-block;
+  background-color: #252525;
+  color: #252525;
+  width: 100%;
+
+    border-radius: 30px 30px 30px 30px;
+
+  
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
-  background-color: #FF69CB;
+  background-color: #ffffff;
   color: #252525;
   width: 100%;
-  padding-left: 10px;
 
     border-radius: 30px 30px 30px 30px;
 
@@ -464,7 +613,7 @@ left:45%;
   font-weight: bold;
   font-size: 20px;
   transition: 0.6s ease;
-  border-radius: 50%;
+  border-radius: 20%;
   user-select: none;
 /*  left: 50px;*/
 }
@@ -531,10 +680,15 @@ left:45%;
   to {opacity: 1}
 }
 
+.ct_bt{
+    display: none;
+      transition: 0.6s ease;
+
+}
 
 .ct_bt a {
     position: relative;
-    left: 3%;
+    left: 16%;
     width: 200px;
     float: left;
     font-size: 26px;
@@ -546,9 +700,118 @@ left:45%;
     border-radius: 20px 20px 20px 20px;
 }
 .ct_bt a:hover {
-    color: #252525;
+    color: #ffffff;
     background-color: #FF69CB;
 }
+
+.at_bt{
+    display: none;
+    padding-top: 20px;
+      transition: 0.6s ease;
+
+}
+
+.at_bt a {
+    position: relative;
+    right: 42%;
+    width: 200px;
+    float: right;
+    font-size: 26px;
+    bottom: 30px;
+    color: #f6f8f8;
+    background-color: #252525;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.at_bt a:hover {
+    color: #ffffff;
+    background-color: #FF69CB;
+}
+
+.pt_bt{
+    display: none;
+    padding-top: 20px;
+      transition: 0.6s ease;
+
+}
+
+.pt_bt a {
+    position: relative;
+    right: 42%;
+    width: 200px;
+    float: right;
+    font-size: 26px;
+    bottom: 30px;
+    color: #f6f8f8;
+    background-color: #252525;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.pt_bt a:hover {
+    color: #ffffff;
+    background-color: #FF69CB;
+}
+
+
+
+.Rt_bt{
+    display: block;
+    padding-top: 20px;
+      transition: 0.6s ease;
+
+
+}
+
+.Rt_bt a {
+    width: 20%;
+    position: absolute;
+    top: 79%;
+    left: 60%;
+    float: left;
+    font-size: 26px;
+/*    bottom: 30px;*/
+    color: #f6f8f8;
+    background-color: #FF69CB;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.Rt_bt a:hover {
+    color: #ffffff;
+    background-color: #FF69CB;
+}
+
+
+
+
+.dt_bt{
+    display: none;
+    padding-top: 20px;
+      transition: 0.6s ease;
+
+}
+
+.dt_bt a {
+    position: relative;
+    right: 42%;
+    width: 200px;
+    float: right;
+    font-size: 26px;
+    bottom: 30px;
+    color: #f6f8f8;
+    background-color: #252525;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.dt_bt a:hover {
+    color: #ffffff;
+    background-color: #FF69CB;
+}
+
+
 
 .contact_bt a {
     width: 100%;
@@ -602,7 +865,7 @@ left:45%;
 .health_section {
     width: 98%;
     float: left;
-    padding-bottom: 60px;
+/*    padding-bottom: 60px;*/
 }
 
 .health_taital {
@@ -1102,23 +1365,42 @@ left:45%;
     float: left;
     background-color: #252525;
     height: auto;
+    padding-top: 60px;
     padding-bottom: 50px;
     box-shadow: 0px 24px 19px -1px #222223;
     position: relative;
 }
 
 .footer_logo {
-    width: 80%;
-    float: left;
-    padding: 0px 0px 30px 0px;
+
+    width: 15%;
+    right: 44.3%;
+    top: 5%;
+/*    left: 50%;*/
+    height: auto;
+    position: absolute;
+
+    
+/*    right: 10%;*/
+/*    padding: 20px 20px 20px 20px;*/
 }
 
 .adderss_text {
-    width: 100%;
+    width: 150%;
     float: left;
     font-size: 24px;
+    position: relative;
     color: #ffffff;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.adderss_text_1 {
+    width: 200%;
+    float: left;
+    font-size: 36px;
+    color: #ffffff;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .map_icon {
@@ -1134,33 +1416,107 @@ left:45%;
 }
 
 .hiphop_text_1 {
-    width: 90%;
+    width: 180%;
     color: #d6d6d6;
     font-size: 16px;
     margin-left: 0px;
+    text-align: center;
 }
 
 .Useful_text {
-    width: 50%;
+    width: 100%;
     color: #d6d6d6;
     font-size: 16px;
-    margin-left: 0px;
 }
 
 .Enter_text {
     width: 100%;
+    height: 10%;
     float: left;
-    font-size: 18px;
-    color: #ffffff;
-    background-color: transparent;
+    font-size: 16px;
+    color: #252525;
+    background-color: #ffffff;
     padding: 7px 10px;
     margin-top: 10px;
+    margin-right: 50px;
+    padding-right: 50px;
     border: 1px solid #cfcfd0;
 }
 
 input.Enter_text::placeholder {
+    color: #252525;
+}
+
+.Enter_text_1 {
+    width: 100%;
+    height: 15%;
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    background-color: #AA6FFF;
+    padding: 7px 10px;
+/*    margin-top: 10px;*/
+/*    margin-right: 50px;*/
+/*    padding-right: 50px;*/
+    border-radius: 5px 5px 5px 5px;
+}
+
+input.Enter_text_1::placeholder {
     color: #fff;
 }
+
+
+
+.register_bt {
+    width: 95%;
+    float: right;
+    left: 15px ;
+
+    position: inherit;
+    margin-top: 20px;
+    border: 1px solid #ffffff;
+
+
+}
+
+.register_bt a {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    background-color: #252525;
+    text-align: center;
+    padding: 7px 0px;
+/*    text-transform: uppercase;*/
+}
+.register_bt a:hover {
+
+    background-color: #FF69CB;
+ 
+}
+.subscribe_bt1 {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    border: 1px solid #ffffff;
+}
+
+.subscribe_bt1 a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #252525;
+    text-align: center;
+    padding: 7px 0px;
+/*    text-transform: uppercase;*/
+}
+.subscribe_bt1 a:hover {
+
+    background-color: #FF69CB;
+ 
+}
+
 
 .subscribe_bt {
     width: 170px;
@@ -1177,7 +1533,7 @@ input.Enter_text::placeholder {
     background-color: #252525;
     text-align: center;
     padding: 7px 0px;
-    text-transform: uppercase;
+/*    text-transform: uppercase;*/
 }
 .subscribe_bt a:hover {
 
@@ -1204,6 +1560,7 @@ input.Enter_text::placeholder {
 .copyright_section {
     width: 100%;
     float: left;
+    
     background-color: #252525;
     height: auto;
 }
@@ -1212,7 +1569,6 @@ input.Enter_text::placeholder {
     width: 100%;
     float: left;
     font-size: 16px;
-    margin-left: 0px;
     color: #fff;
     text-align: center;
 }
