@@ -508,6 +508,7 @@ button {
 /*  border-radius: 15px;*/
   color: #ffffff;
   display: none;
+
     padding-top: 50px;
     padding-right: -30px;
 
@@ -525,6 +526,7 @@ button {
 /*  border-radius: 15px;*/
   color: #252525;
   display: none;
+  
     padding-top: 50px;
 
 
@@ -540,10 +542,49 @@ button {
 /*  border-radius: 15px;*/
   color: #252525;
   display: none;
+
     padding-top: 50px;
 
 
 }
+
+
+.slideshow-container_8 {
+  width:30%;
+  left: 12%;
+  position: relative;
+/*  margin: left;*/
+/*  left: 150px;*/
+  background-color: #252525;
+/*  border-radius: 15px;*/
+  color: #252525;
+  display: block;
+
+    padding-top: 50px;
+
+
+}
+
+.slideshow-container_9 {
+  width:60%;
+  left: 15%;
+  position: relative;
+/*  margin: left;*/
+/*  left: 150px;*/
+  background-color: #252525;
+/*  border-radius: 15px;*/
+  color: #252525;
+  display: none;
+  
+
+    padding-top: 50px;
+
+
+}
+
+
+
+
 
 .Registeration_section {
   width:75%;
@@ -679,6 +720,31 @@ left:45%;
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.et_bt{
+    display: block;
+      transition: 0.6s ease;
+      
+
+}
+
+.et_bt a {
+    position: relative;
+    left: 35%;
+/*    width: 150%;*/
+    float: center;
+    font-size: 26px;
+    bottom: 8px;
+    background-color: #75FDEA;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10%;
+}
+.et_bt a:hover {
+    color: #ffffff;
+    background-color: #FF69CB;
+}
+
 
 .ct_bt{
     display: none;
