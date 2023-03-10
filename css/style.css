@@ -373,6 +373,11 @@ button {
     float: right;
 
 }
+.images_2 {
+    width: 100%;
+    float: right;
+
+}
 
 .banner_taital {
     width: 100%;
@@ -438,45 +443,61 @@ button {
 
 }
 .slideshow-container_1 {
-  width:75%;
-  left: 12%;
-  position: relative;
+  width:30%;
+  height: auto;
+  margin-left: 25px;
+/*  position: relative;*/
 /*  margin: left;*/
 /*  left: 150px;*/
   background-color: #ffffff;
 /*  border-radius: 15px;*/
   color: #ffffff;
   display: none;
-    padding-top: 50px;
 
 
 }
 
+.slideshow-container_10 {
+/*  width:20%;*/
+  
+/*  position: inherit;*/
+  float: center;
+/*  margin: left;*/
+/*  left: 150px;*/
+  background-color: #e2ecf7;
+/*  border-radius: 15px;*/
+  color: #e2ecf7;
+  display: none;
 
+
+}
 .slideshow-container_2 {
-  width:75%;
-  left: 12%;
-  position: relative;
+  width:30%;
+  height: auto;
+  margin-right: 50px;
+  /*  position: inherit;*/
+  float: right;
 /*  margin: left;*/
 /*  left: 150px;*/
   background-color: #ffffff;
 /*  border-radius: 15px;*/
   color: #ffffff;
   display: none;
-    padding-top: 50px;
 
 
 }
 
 .slideshow-container_3 {
-  width:75%;
-  left: 12%;
+  width:97.5%;
+  height: auto;
+  margin-left: 20px;
+/*  left: 12%;*/
   position: relative;
 /*  margin: left;*/
 /*  left: 150px;*/
   background-color: #ffffff;
 /*  border-radius: 15px;*/
-  color: #ffffff;
+  color: #fff;
   display: none;
     padding-top: 50px;
 
@@ -772,7 +793,8 @@ left:45%;
 
 .at_bt{
     display: none;
-    padding-top: 20px;
+    padding-top: 40px;
+    padding-right: 50px;
       transition: 0.6s ease;
 
 }
@@ -791,9 +813,38 @@ left:45%;
     border-radius: 10px 10px 10px 10px;
 }
 .at_bt a:hover {
-    color: #ffffff;
-    background-color: #FF69CB;
+    color: #252525;
+    background-color: #e2ecf7;
 }
+
+
+.St_bt{
+    display: block;
+    padding-top: 40px;
+      transition: 0.6s ease;
+    padding-right: 175px;
+}
+
+.St_bt a {
+    position: relative;
+/*    right: 42%;*/
+    width: auto;
+    float: right;
+    font-size: 26px;
+    bottom: 10px;
+    color: #252525;
+    background-color: #FF69CB;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.St_bt a:hover {
+    color: #252525;
+    background-color: #e2ecf7;
+}
+
+
+
 
 .pt_bt{
     display: none;
@@ -931,6 +982,13 @@ left:45%;
 .health_section {
     width: 98%;
     float: left;
+/*    padding-bottom: 60px;*/
+}
+.health_section_1 {
+    width: 100%;
+/*    float: left;*/
+    display: inline-block;
+    padding-top: 50px;
 /*    padding-bottom: 60px;*/
 }
 
