@@ -6,6 +6,8 @@
          your browser doesnt support the audio element
 </audio> -->
 
+<link rel="icon" href="images/35.png">
+
 <head >
    <script src="//code.tidio.co/p2vxv507trlgojvnvafndxywnvcalxaj.js" async></script>
    <!-- basic -->
@@ -15,7 +17,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1" style="color:#e2ecf7;background-color: #e2ecf7;">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1" style="color:#e2ecf7;background-color: #e2ecf7;">
    <!-- site metas -->
-   <title>HomeCare</title>
+   <title>Hi-Roze</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -26,7 +28,7 @@
    <!-- Responsive-->
    <link rel="stylesheet" href="css/responsive.css">
    <!-- fevicon -->
-   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- <link rel="icon" href="images/fevicon.png" type="image/gif" /> -->
    <!-- Scrollbar Custom CSS -->
    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
    <!-- Tweaks for older IEs-->
@@ -41,35 +43,35 @@
    <!-- header section start -->
    <div class="header_section" id="First">
       <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#e2ecf7; color: #e2ecf7; border-color:#e2ecf7">
-         <div class="logo" style="background-color:#e2ecf7; color:#e2ecf7; border-color: #e2ecf7;"><a href="index.html"><img src="images/1.png"></a></div>
+         <div class="logo" style="margin-right: 30%;"><a href="index.html"><img src="images/1.png"></a></div>
          <button class="navbar-toggler" style="background-color:#e2ecf7;color: #e2ecf7;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon" style="color:#e2ecf7;background-color: #e2ecf7;"></span>
          </button>
          <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color:#e2ecf7;background-color: #e2ecf7; background-color: #e2ecf7;">
-           <!--  <ul class="navbar-nav mr-auto" style="color:#e2ecf7;background-color: #e2ecf7;">
+            <ul class="navbar-nav mr-auto" style="color:#e2ecf7;background-color: #e2ecf7;">
                <li class="nav-item active" style="color:#e2ecf7;background-color: #e2ecf7;">
                   <a class="nav-link" href="index.html" style="color:#FF69CB;">Home</a>
                </li>
-               <li class="nav-item">
+           <!--     <li class="nav-item">
                   <a class="nav-link" href="health.html">Health</a>
-               </li>
+               </li> -->
                <li class="nav-item">
-                  <a class="nav-link" href="medicine.html">Medicine</a>
+                  <a class="nav-link" href="session.html">Sessions</a>
                </li>
-               <li class="nav-item">
+               <!-- <li class="nav-item">
                   <a class="nav-link" href="news.html">News</a>
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="client.html">Client</a>
-               </li>
+               </li> -->
                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact Us</a>
+                  <a class="nav-link" href="#footer">Contact Us</a>
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="#"><img src="images/search-icon.png"></a>
                </li>
             </ul>
-         </div> -->
+         </div>
       </nav>
       <!-- header section end -->
       <!-- banner section start -->
@@ -761,7 +763,13 @@ document.getElementById('restore').onclick = function () {
 // }
 
 
-
+function Video(){
+   var bt = document.getElementsByClassName('slideshow-container_8')
+   bt[0].style.display = "none";
+   var xt = document.getElementsByClassName('slideshow-container_9')
+   xt[0].style.display = "block";
+  
+}
 
 
 
@@ -954,7 +962,7 @@ document.getElementById('restore').onclick = function () {
    </div> -->
    <!-- client section end -->
    <!-- footer section start -->
-   <div class="footer_section layout_padding">
+   <div id="footer" class="footer_section layout_padding">
       <div class="container">
          <div class="footer_logo" style="margin-left: 34%; " ><a href="index.html"><img src="images/35.png"></a></div>
 
@@ -969,10 +977,11 @@ document.getElementById('restore').onclick = function () {
                 <div class="Useful_text" style="padding-top:95px;">Find Emotional,Mental and Physical Support & Advices. </div>
                 <div class="social_icon" >
                   <ul>
-                     <li><a href="https://youtube.com/@hi-roze" ><img src="images/youtube_logo.png"></a></li>
 
                      <li><a href="https://www.facebook.com/profile.php?id=100088663196285&mibextid=LQQJ4d"><img src="images/fb-icon.png"></a></li>
+
                      <li><a href="https://instagram.com/hirozematernalmentalhealth?igshid=YmMyMTA2M2Y"><img src="images/instagram-icon.png"></a></li>
+                     <li><a href="https://youtube.com/@hi-roze" ><img src="images/youtube.png"></a></li>
 
                   </ul>
                </div>
