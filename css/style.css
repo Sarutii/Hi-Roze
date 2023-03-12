@@ -390,7 +390,7 @@ button {
 }
 
 .banner_text {
-    width: 110%;
+    width: 100%;
     float: left;
     font-size: 20px;
     margin: 0px;
@@ -445,6 +445,7 @@ button {
 .slideshow-container_1 {
   width:30%;
   height: auto;
+  z-index: 1;
   margin-left: 25px;
 /*  position: relative;*/
 /*  margin: left;*/
@@ -474,6 +475,7 @@ button {
 .slideshow-container_2 {
   width:30%;
   height: auto;
+  z-index: 2;
   margin-right: 50px;
   /*  position: inherit;*/
   float: right;
@@ -513,7 +515,7 @@ button {
   background-color: #252525;
 /*  border-radius: 15px;*/
   color: #252525;
-  display: none;
+  display: block;
     padding-top: 50px;
 
 
@@ -769,15 +771,17 @@ left:45%;
 
 .ft_bt{
     display: none;
-      transition: 0.6s ease;
+
+    transition: 0.6s ease;
 
 }
 
 .ft_bt a {
     position: relative;
-    left: 16%;
+    left: 50%;
     width: 200px;
     float: left;
+    margin-left: 200px;
     font-size: 26px;
     bottom: 40px;
     color: #f6f8f8;
@@ -796,15 +800,17 @@ left:45%;
 .ct_bt{
     display: none;
       transition: 0.6s ease;
+/*      left: 50%;*/
 
 }
 
 .ct_bt a {
     position: relative;
-    left: 16%;
+    left: 50%;
     width: 200px;
     float: left;
     font-size: 26px;
+    margin-left: 200px;
     bottom: 40px;
     color: #f6f8f8;
     background-color: #252525;
@@ -846,17 +852,16 @@ left:45%;
 
 .St_bt{
     display: block;
-    padding-top: 40px;
+    padding-top: 20px;
       transition: 0.6s ease;
-    padding-right: 175px;
 }
 
 .St_bt a {
     position: relative;
 /*    right: 42%;*/
     width: auto;
-    float: right;
-    font-size: 26px;
+    float: center;
+    font-size: 20px;
     bottom: 10px;
     color: #252525;
     background-color: #FF69CB;
@@ -901,29 +906,31 @@ left:45%;
 
 .Rt_bt{
     display: block;
-    padding-top: 20px;
+/*    padding-top: 20px;*/
       transition: 0.6s ease;
+
 
 
 }
 
 .Rt_bt a {
-    width: 20%;
-    position: absolute;
-    top: 79%;
+/*    width: 20%;*/
+    position: relative;
+/*    top: 79%;*/
     left: 60%;
     float: left;
-    font-size: 26px;
+    font-size: 24px;
 /*    bottom: 30px;*/
     color: #f6f8f8;
     background-color: #FF69CB;
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px 10px 10px 10px;
+
     border-radius: 10px 10px 10px 10px;
 }
 .Rt_bt a:hover {
     color: #ffffff;
-    background-color: #FF69CB;
+    background-color: #e2ecf7;
 }
 
 
@@ -1525,12 +1532,12 @@ left:45%;
 
 .footer_logo {
 
-    width: 15%;
-    right: 44.3%;
-    top: 5%;
+    width: auto;
+/*    right: 44.3%;*/
+/*    top: 5%;*/
 /*    left: 50%;*/
     height: auto;
-    position: absolute;
+    position: relative;
 
     
 /*    right: 10%;*/
@@ -1547,7 +1554,7 @@ left:45%;
 }
 
 .adderss_text_1 {
-    width: 200%;
+    width: 100%;
     float: left;
     font-size: 36px;
     color: #ffffff;
@@ -1568,7 +1575,7 @@ left:45%;
 }
 
 .hiphop_text_1 {
-    width: 180%;
+    width: 100%;
     color: #d6d6d6;
     font-size: 16px;
     margin-left: 0px;
@@ -1607,9 +1614,9 @@ input.Enter_text::placeholder {
     color: #fff;
     background-color: #AA6FFF;
     padding: 7px 10px;
-/*    margin-top: 10px;*/
-/*    margin-right: 50px;*/
-/*    padding-right: 50px;*/
+  margin-top: 10px;
+  margin-right: 50px; 
+  padding-right: 50px;
     border-radius: 5px 5px 5px 5px;
 }
 
@@ -1620,7 +1627,7 @@ input.Enter_text_1::placeholder {
 
 
 .register_bt {
-    width: 95%;
+    width: 100%;
     float: right;
     left: 15px ;
 
@@ -1641,7 +1648,7 @@ input.Enter_text_1::placeholder {
     padding: 7px 0px;
 /*    text-transform: uppercase;*/
 }
-.register_bt a:hover {
+.register_bt:hover {
 
     background-color: #FF69CB;
  

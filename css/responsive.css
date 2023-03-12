@@ -88,6 +88,69 @@
     .cart-content-right {
         padding-bottom: 5px;
     }
+    .image_2{
+        display: none;
+    }
+
+    .health_section_1{
+        display: grid;
+    }
+    .ct_bt{
+/*        display: inline-block;*/
+        }
+    .ct_bt a{
+        left: 0;
+        width: 180px;
+        margin-left: 7px;
+    }
+    .ft_bt{
+/*        display: bl;*/
+    }
+    .ft_bt a{
+        left: 0;
+        width: 180px;
+        margin-left: 7px;
+    }
+    .St_bt{
+        margin-left: 50px;
+
+    }
+
+    .St_bt a{
+        font-size: 16px;
+    }
+
+    .slideshow-container_1{
+        width: auto;
+        float: center;
+        margin-bottom: 50px;
+        margin-right: 30px;
+    }
+     .slideshow-container_2{
+        width: auto;
+        float: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .slideshow-container_3{
+        width: auto;
+        float: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .at_bt{
+        position: inherit;
+        float: right;
+    }
+    .numbertext{
+        font-size: 16px;
+    }
+    .myslides{
+        width: auto;
+    }
+
+
     .megamenu>.row [class*="col-"] {
         padding: 0px;
     }
@@ -114,7 +177,7 @@
         width: 100%;
     }
     .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
-        width: auto;
+        width: 90%;
         border: none;
         float: none;
     }
@@ -156,6 +219,7 @@
     #my_slider a.carousel-control-next {
         left: 335px;
         top: 72%;
+        margin-left: 30px;
     }
     #my_slider a.carousel-control-prev {
         left: 335px;
@@ -208,8 +272,43 @@
     .contact_bt {
         width: 135px;
     }
-    .more_bt {
+
+    .at_bt{
         width: 135px;
+    }
+    .et_bt{
+        width: 135px;
+    }
+    .ft_bt{
+        width: 135px;
+    }
+    .ct_bt{
+        width: 135px;
+    }
+    .St_bt{
+        width: 135px;
+    }
+    .pt_bt{
+        width: 135px;
+    }
+    .Rt_bt{
+        width: 135px;
+    }
+    .dt_bt{
+        width: 135px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .more_bt {
+        width: 250px;
     }
     .more_bt a {
         padding: 7px 0px;
@@ -217,6 +316,47 @@
     .contact_bt a {
         padding: 7px 0px;
     }
+
+
+    .at_bt a {
+        padding: 7px 0px;
+    }
+    .et_bt a {
+        padding: 7px 0px;
+    }
+    .ft_bt a {
+        padding: 7px 0px;
+    }
+    .ct_bt a {
+        padding: 7px 0px;
+    }
+    .St_bt a {
+        padding: 7px 0px;
+    }
+    .pt_bt a {
+        padding: 7px 0px;
+    }
+    .Rt_bt a {
+        padding: 10px 10px;
+    }
+    .dt_bt a {
+        padding: 7px 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .image_1 {
         padding-top: 30px;
     }
@@ -293,10 +433,10 @@
         font-size: 36px;
     }
     #my_slider a.carousel-control-next {
-        display: none;
+        display: block;
     }
     #my_slider a.carousel-control-prev {
-        display: none;
+        display: block;
     }
     .Useful_text {
         width: 60%;
@@ -314,13 +454,13 @@
         position: absolute;
         left: 175px;
         top: 90%;
-        display: none;
+        display: block;
     }
     #main_slider a.carousel-control-next {
         position: absolute;
         left: 236px;
         top: 90%;
-        display: none;
+        display: block;
     }
     .header_section {
         background-size: cover;
@@ -353,8 +493,46 @@
     .contact_bt {
         width: 135px;
     }
-    .more_bt {
+
+
+
+
+    .at_bt{
         width: 135px;
+    }
+    .et_bt{
+        width: 135px;
+    }
+    .ft_bt{
+        width: 135px;
+    }
+    .ct_bt{
+        width: 135px;
+    }
+    .St_bt{
+        width: 135px;
+    }
+    .pt_bt{
+        width: 135px;
+    }
+    .Rt_bt{
+        width: 135px;
+    }
+    .dt_bt{
+        width: 135px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .more_bt {
+        width: 250px;
     }
     .more_bt a {
         padding: 7px 0px;
@@ -362,6 +540,50 @@
     .contact_bt a {
         padding: 7px 0px;
     }
+
+
+
+    .at_bt a {
+        padding: 7px 0px;
+    }
+    .et_bt a {
+        padding: 7px 0px;
+    }
+    .ft_bt a {
+        padding: 7px 0px;
+    }
+    .ct_bt a {
+        padding: 7px 0px;
+    }
+    .St_bt a {
+        padding: 7px 0px;
+    }
+    .pt_bt a {
+        padding: 7px 0px;
+    }
+    .Rt_bt a {
+        padding: 10px 10px;
+    }
+    .dt_bt a {
+        padding: 7px 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .image_1 {
         padding-top: 30px;
     }
@@ -438,10 +660,10 @@
         font-size: 36px;
     }
     #my_slider a.carousel-control-next {
-        display: none;
+        display: block;
     }
     #my_slider a.carousel-control-prev {
-        display: none;
+        display: block;
     }
     .Useful_text {
         width: 60%;
@@ -459,13 +681,15 @@
         position: absolute;
         left: 175px;
         top: 90%;
-        display: none;
+        display: block;
     }
     #main_slider a.carousel-control-next {
         position: absolute;
         left: 236px;
         top: 90%;
-        display: none;
+        display: block;
+                margin-left: 30px;
+
     }
     .header_section {
         background-size: cover;
@@ -498,8 +722,34 @@
     .contact_bt {
         width: 135px;
     }
-    .more_bt {
+
+    .at_bt{
         width: 135px;
+    }
+    .et_bt{
+        width: 135px;
+    }
+    .ft_bt{
+        width: 135px;
+    }
+    .ct_bt{
+        width: 135px;
+    }
+    .St_bt{
+        width: 135px;
+    }
+    .pt_bt{
+        width: 135px;
+    }
+    .Rt_bt{
+        width: 135px;
+    }
+    .dt_bt{
+        width: 135px;
+    }
+
+    .more_bt {
+        width: 250px;
     }
     .more_bt a {
         padding: 7px 0px;
@@ -507,6 +757,34 @@
     .contact_bt a {
         padding: 7px 0px;
     }
+
+    .at_bt a {
+        padding: 7px 0px;
+    }
+    .et_bt a {
+        padding: 7px 0px;
+    }
+    .ft_bt a {
+        padding: 7px 0px;
+    }
+    .ct_bt a {
+        padding: 7px 0px;
+    }
+    .St_bt a {
+        padding: 7px 0px;
+    }
+    .pt_bt a {
+        padding: 7px 0px;
+    }
+    .Rt_bt a {
+        padding: 10px 10px;
+    }
+    .dt_bt a {
+        padding: 7px 0px;
+    }
+
+
+
     .image_1 {
         padding-top: 30px;
     }
@@ -586,9 +864,9 @@
         font-size: 36px;
     }
     #my_slider a.carousel-control-next {
-        display: none;
+        display: block;
     }
     #my_slider a.carousel-control-prev {
-        display: none;
+        display: block;
     }
 }
