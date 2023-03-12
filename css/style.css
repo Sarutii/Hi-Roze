@@ -515,7 +515,8 @@ button {
   background-color: #252525;
 /*  border-radius: 15px;*/
   color: #252525;
-  display: block;
+  display: none;
+  
     padding-top: 50px;
 
 
