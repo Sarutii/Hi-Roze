@@ -149,6 +149,30 @@
     .myslides{
         width: auto;
     }
+    .et_bt a{
+        width: 150%;
+left: 85%;
+    }
+#vid{
+    width: 250px;
+}
+
+.slideshow-container_8{
+        width: auto;
+        margin-right: 30px;
+        padding-right: 30px;
+    }
+
+
+    .slideshow-container_9{
+        width: auto;
+        margin-right: 50px;
+        padding-right: 30px;
+    }
+    .myslides_2 video{
+        width: 300px;
+        height: auto;
+    }
 
 
     .megamenu>.row [class*="col-"] {
