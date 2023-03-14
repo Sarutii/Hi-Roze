@@ -119,6 +119,16 @@
     .St_bt a{
         font-size: 16px;
     }
+    .St_bt_1{
+        width: 320px;
+        margin-left: 0;
+        margin-right: 30px;
+
+    }
+    .St_bt_1 a{
+        width: 200px;
+
+    }
 
     .slideshow-container_1{
         width: auto;
@@ -138,6 +148,19 @@
         float: center;
         margin-left: 30px;
         margin-right: 30px;
+    }
+    .slideshow-container_11{
+        width: auto;
+        float: center;
+        margin-left: 5px;
+        margin-right: 30px;
+        left: 0%;
+    }
+    #First a{
+        font-size: 12px;
+    }
+    .myslides_22{
+        width: 110%;
     }
     .at_bt{
         position: inherit;
