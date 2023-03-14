@@ -901,6 +901,7 @@ left:45%;
 }
 
 .St_bt_1{
+    cursor: pointer;
     display: block;
     width: 450px;
       transition: 0.6s ease;
