@@ -615,7 +615,7 @@ button {
   background-color: #FA8686;
 /*  border-radius: 15px;*/
   color: #FA8686;
-  display: block;
+  display: none;
   
 
     padding-top: 50px;
